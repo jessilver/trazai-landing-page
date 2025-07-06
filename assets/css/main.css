@@ -1829,6 +1829,10 @@ p + p{
   padding: 1rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1920,6 +1924,14 @@ p + p{
 
 .pt-\[120px\]{
   padding-top: 120px;
+}
+
+.ps-5{
+  padding-inline-start: 1.25rem;
+}
+
+.ps-10{
+  padding-inline-start: 2.5rem;
 }
 
 .text-left{
