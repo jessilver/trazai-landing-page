@@ -201,8 +201,11 @@
   .ic-navbar.sticky .ic-navbar-logo {
     @apply text-body-light-12 dark:text-body-dark-12;
   }
+  /* .ic-navbar.sticky .ic-navbar-logo #NavbarBrandIcon {
+    @apply fill-white;
+  } */
   .ic-navbar.sticky .ic-navbar-logo #NavbarBrandIcon {
-    @apply fill-primary;
+    fill: #FDA64B;
   }
   .ic-navbar.sticky .ic-navbar-toggler {
     @apply text-body-light-12 dark:text-body-dark-12;

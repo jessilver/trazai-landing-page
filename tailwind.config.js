@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["AbeeZee", "sans-serif"],
       },
       colors: {
         primary: {
