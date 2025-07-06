@@ -26,10 +26,22 @@ window.addEventListener('DOMContentLoaded', function () {
     }
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY)
       .then(function () {
-        alert('Mensagem enviada com sucesso!');
+        Swal.fire({
+          icon: 'success',
+          title: 'Mensagem enviada!',
+          text: 'Sua mensagem foi enviada com sucesso. Entraremos em contato em breve.',
+          confirmButtonColor: '#3085d6',
+          confirmButtonText: 'OK'
+        });
         form.reset();
       }, function (error) {
-        alert('Erro ao enviar mensagem. Tente novamente.');
+        Swal.fire({
+          icon: 'error',
+          title: 'Erro ao enviar',
+          text: 'Não foi possível enviar sua mensagem. Tente novamente.',
+          confirmButtonColor: '#d33',
+          confirmButtonText: 'OK'
+        });
         console.error(error);
       });
   });
