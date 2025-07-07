@@ -206,12 +206,12 @@ portfolioFilters.forEach((filter) => {
         '.portfolio-grid .portfolio [data-filter="' + selected + '"]'
       );
 
-    if (selected == "all") {
-      itemsToHide = [];
-      itemsToShow = document.querySelectorAll(
-        ".portfolio-grid .portfolio [data-filter]"
-      );
-    }
+    // if (selected == "all") {
+    //   itemsToHide = [];
+    //   itemsToShow = document.querySelectorAll(
+    //     ".portfolio-grid .portfolio [data-filter]"
+    //   );
+    // }
 
     itemsToHide.forEach((el) => {
       el.parentElement.classList.add("hide");
